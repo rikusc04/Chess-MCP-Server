@@ -15,17 +15,17 @@ A Model Context Protocol (MCP) server that provides chess game functionality. Pl
 
 1. Clone the repository:
     ```bash
-        git clone https://github.com/rikusc04/Chess-MCP-Server.git
+    git clone https://github.com/rikusc04/Chess-MCP-Server.git
     ```
 
 2. Cd into the cloned repository
     ```bash
-        cd Chess_MCP
+    cd Chess_MCP
     ```
 
 3. Install dependencies:
     ```bash
-        npm install
+    npm install
     ```
 
 ## Usage
