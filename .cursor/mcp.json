@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "chess": {
+        "command": "npx",
+        "args": [
+          "tsx",
+          "src/main.ts"
+        ]
+      }
+    }
+  }

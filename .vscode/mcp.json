@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"chess": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"tsx",
+				"src/main.ts"
+			]
+		}
+	},
+  "inputs": []
+}
