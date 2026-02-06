@@ -1,12 +1,12 @@
 # Chess MCP Server (In Progress)
 
-A Model Context Protocol (MCP) server that provides chess game functionality. Play chess, analyze positions, and get legal moves through MCP-compatible clients like Claude Desktop, Cursor, or VS Code.
+This is a Model Context Protocol (MCP) server that provides chess game functionality. You can play chess against this MCP server using MCP-compatible clients like Claude Desktop, Cursor, or VS Code.
 
 ## Features
 
 - **Make Moves**: Play chess moves in UCI format (e.g., `e2e4`, `g1f3`)
 - **Display Board**: View the current board state with all piece positions
-- **Legal Moves**: Get all legal moves or moves for a specific piece
+- **Legal Moves**: Gets all legal moves or moves for a specific piece
 - **Game Status**: Check for check, checkmate, stalemate, and draw conditions
 - **Move History**: Review all moves played in the current game
 - **Reset Game**: Start a new game at any time
@@ -67,6 +67,5 @@ Claude: [calls make_move with e2e4]
 ```
 
 ## Requirements
-
 - Node.js >= 18.0.0
 - npm or yarn
