@@ -41,12 +41,12 @@ The `.vscode/mcp.json` file is already configured for VS Code with MCP support.
 
 ### Standalone Testing
 
-Run the interactive chess client:
+- Run the interactive chess client:
     ```bash
         npx tsx src/play.ts
     ```
 
-Or run the test suite:
+- Or run the test suite:
     ```bash
         npx tsx src/test-client.ts
     ```
