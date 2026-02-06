@@ -29,23 +29,7 @@ A Model Context Protocol (MCP) server that provides chess game functionality. Pl
     ```
 
 ## Usage
-
-### With Claude Desktop
-
-Add to your Claude Desktop config file:
-
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-**Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
-```json
-{
-    "mcpServers": {
-        "chess": {
-            "command": "npx",
-            "args": ["tsx", "/absolute/path/to/Chess_MCP/src/main.ts"]
-    }
-  }
-}
-```
+- This MCP Server is currently configured for Cursor and VSCode only
 
 ### With Cursor
 
